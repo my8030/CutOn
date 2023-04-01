@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".LogOut">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="255dp"
+        android:layout_height="100dp"
+        android:text="Бажаєте вийти з додатку?"
+        android:textColor="@color/text_color"
+        android:textIsSelectable="false"
+        android:textSize="34sp"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <Button
+        android:id="@+id/no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/grey_button"
+        android:outlineProvider="none"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="НІ"
+        app:cornerRadius="10sp"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <Button
+        android:id="@+id/yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/green_button"
+        android:outlineProvider="none"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="ТАК"
+        app:cornerRadius="10sp"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="339dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
